@@ -13,10 +13,14 @@ const firstName = "Carlos";
 const lastName = "Stevenson";
 const thisYear = 1965;
 const birthYear = 1947;
+const fullName = "Carlos Stevenson"
+const age = 18;
 
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear-birthYear) + " years old.";
+const greeting1 = fullName + age;
 
 console.log(greeting);
+console.log(greeting1)
 
 // Do not change this
 module.exports = {
