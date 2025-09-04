@@ -19,6 +19,7 @@ const fibonacci = function(numArg) {
         b = next;
     }
     return b;
+    
 };
 
 // Do not edit below this line
